@@ -8,6 +8,9 @@ import { listPokemon } from '../../services/pokemon'
 // styles
 import styles from './styles'
 
+// local components
+import ItemPokemon from './components/ItemPokemon'
+
 export default function Pokemons() {
     const [pokemons, setPokemons] = useState(null)
     const [loading, setLoading] = useState(true)
@@ -46,8 +49,8 @@ export default function Pokemons() {
             <FlatList
                 contentContainerStyle={styles.FlatListPokemons}
                 data={pokemons}
-                renderItem={({item}) => 
-                    <Text>{item}</Text>   
+                renderItem={({item, index}) => 
+                    <ItemPokemon name={item} number={index + 1} />  
                 }
                 keyExtractor={index => index}
             />

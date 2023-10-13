@@ -1,8 +1,10 @@
 import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
-    FlatListPokemons: {
-        gap: 10,
+    ViewBody: {
+        backgroundColor: '#ffffff',
+        flexDirection: 'row',
+        gap: 5,
         padding: 10,
     }
 })
