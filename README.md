@@ -32,16 +32,17 @@ This project was developed as part of the challenge proposed by Xalantis. The ob
 
    ```bash
    npm start
-   
-This command will start the application and open a page in your web browser with a QR code that you can scan using the Expo Go app on your mobile device.
+   ```
+
+   This command will start the application and open a page in your web browser with a QR code that you can scan using the Expo Go app on your mobile device.
 
 5. Scan the QR code with the Expo Go app on your mobile device to view the application in real time.
 
-Login Credentials
-To authenticate in the application, use the following credentials:
+   Login Credentials
+   To authenticate in the application, use the following credentials:
 
-Email: pablodoebber28@gmail.com
-Password: 123456
+   Email: pablodoebber28@gmail.com
+   Password: 123456
 
 Notes
-Please make sure your machine is connected to the internet, as the application may need to access external resources to load Pokémon and Mercedes-Benz car data.
+   Please make sure your machine is connected to the internet, as the application may need to access external resources to load Pokémon and Mercedes-Benz car data.
